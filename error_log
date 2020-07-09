@@ -1,0 +1,7 @@
+[24-Oct-2016 02:41:19 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ')' in /home/examin8/public_html/CI/fire_power/application/config/constants.php on line 93
+[24-Oct-2016 02:41:35 America/Los_Angeles] PHP Parse error:  syntax error, unexpected ')' in /home/examin8/public_html/CI/fire_power/application/config/constants.php on line 93
+[24-Oct-2016 02:53:11 America/Los_Angeles] PHP Fatal error:  Call to a member function plans() on a non-object in /home/examin8/public_html/CI/fire_power/application/controllers/Users.php on line 20
+[24-Oct-2016 02:54:24 America/Los_Angeles] PHP Fatal error:  Call to a member function plans() on a non-object in /home/examin8/public_html/CI/fire_power/application/controllers/Users.php on line 20
+[24-Oct-2016 02:54:38 America/Los_Angeles] PHP Fatal error:  Call to a member function plans() on a non-object in /home/examin8/public_html/CI/fire_power/application/controllers/Users.php on line 20
+[24-Oct-2016 02:54:41 America/Los_Angeles] PHP Fatal error:  Call to a member function plans() on a non-object in /home/examin8/public_html/CI/fire_power/application/controllers/Users.php on line 20
+[24-Oct-2016 02:54:59 America/Los_Angeles] PHP Fatal error:  Call to a member function plans() on a non-object in /home/examin8/public_html/CI/fire_power/application/controllers/Users.php on line 20
