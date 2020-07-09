@@ -77,18 +77,12 @@ if($_SERVER['HTTP_HOST']=='localhost'|| $_SERVER['HTTP_HOST'] == '127.0.0.1')
 	$db['default']['hostname'] = 'localhost';
 	$db['default']['username'] = 'root';
 	$db['default']['password'] = '';
-	$db['default']['database'] = 'fire_power';
-}else if($_SERVER['HTTP_HOST']=='205.134.251.196')
-{
-	$db['default']['hostname'] = 'localhost';
-	$db['default']['username'] = 'examin8_ci_task';
-	$db['default']['password'] = 'root@@12126';
-	$db['default']['database'] = 'examin8_ci_task';
+	$db['default']['database'] = 'ci_admin';
 }else{
-	$db['default']['hostname'] = '52.55.52.253';
-	$db['default']['username'] = 'webdev';
-	$db['default']['password'] = 'hrK9owHJEEGF9wgBo';
-	$db['default']['database'] = 'webdevdb';
+	$db['default']['hostname'] = 'localhost';
+	$db['default']['username'] = 'root';
+	$db['default']['password'] = '';
+	$db['default']['database'] = 'ci_admin';
 }
 
 	$db['default']['dsn'] = '';

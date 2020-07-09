@@ -86,23 +86,18 @@ define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 if($_SERVER['HTTP_HOST']=='localhost' || $_SERVER['HTTP_HOST'] == '127.0.0.1')
 {
-	define('FRONTEND','http://'.$_SERVER['HTTP_HOST'].'/fire_power/assets/front/');
-	define('BACKEND','http://'.$_SERVER['HTTP_HOST'].'/fire_power/assets/admin/');
-	define('EMAIL_TEMPLATE','http://'.$_SERVER['HTTP_HOST'].'/fire_power/assets/emails/');
-	define('UPLOAD_PATH','http://'.$_SERVER['HTTP_HOST'].'/fire_power/assets/uploads/');
-}elseif($_SERVER['HTTP_HOST'] == '205.134.251.196'){
-	define('FRONTEND','http://205.134.251.196/~examin8/CI//fire_power/assets/front/');
-	define('BACKEND','http://205.134.251.196/~examin8/CI/fire_power/assets/admin/');
-	define('EMAIL_TEMPLATE','http://205.134.251.196/~examin8/CI/fire_power/assets/emails/');
-	define('UPLOAD_PATH','http://205.134.251.196/~examin8/CI/fire_power/assets/uploads/');
+	define('FRONTEND','http://'.$_SERVER['HTTP_HOST'].'/ci-admin/assets/front/');
+	define('BACKEND','http://'.$_SERVER['HTTP_HOST'].'/ci-admin/assets/admin/');
+	define('EMAIL_TEMPLATE','http://'.$_SERVER['HTTP_HOST'].'/ci-admin/assets/emails/');
+	define('UPLOAD_PATH','http://'.$_SERVER['HTTP_HOST'].'/ci-admin/assets/uploads/');
 }
 else
 {
-	define('BACKEND','https://webdev.aws.kpsdev.com/fire_power/assets/admin/');
-	define('FRONTEND','https://webdev.aws.kpsdev.com/fire_power/assets/front/');
-	define('FONT_URL','./assets/fonts/');
-	define('EMAIL_TEMPLATE','https://webdev.aws.kpsdev.com/fire_power/assets/emails/');
+    define('FRONTEND','http://'.$_SERVER['HTTP_HOST'].'/ci-admin/assets/front/');
+	define('BACKEND','http://'.$_SERVER['HTTP_HOST'].'/ci-admin/assets/admin/');
+	define('EMAIL_TEMPLATE','http://'.$_SERVER['HTTP_HOST'].'/ci-admin/assets/emails/');
+	define('UPLOAD_PATH','http://'.$_SERVER['HTTP_HOST'].'/ci-admin/assets/uploads/');
 }
-define('SITE_NAME', 'Fire Power');
+define('SITE_NAME', 'Admin');
 define('ADMIN_PER_PAGE', '15');
 

@@ -10,9 +10,9 @@ class Admin extends CI_Controller {
     }
         
 	public function index(){
-		$salt ='888d8ba176'; 
-		$password ="admin@123";
-		echo sha1($salt.sha1($salt.sha1($password)));;
+		//$salt ='888d8ba176'; 
+		//$password ="admin@123";
+		// sha1($salt.sha1($salt.sha1($password)));;
         if(!empty($this->user)){
             redirect($this->user->default_landing);
         }
